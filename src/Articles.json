@@ -1,0 +1,78 @@
+[
+    {
+        "id": "1",
+        "title": "5 Autumn Basics",
+        "subtitle": "Come discover 5 autumn pieces you will be able to wear years after years",
+        "category": "FASHION",
+        "date": "November 2020",
+        "main": 1,
+        "src1": "./images/outfit1.jpg",
+        "src2": "./images/outfit1.jpg",
+        "array": [
+            [
+                "./images/mibenki.png",
+                "./images/mibenki.png"
+            ],
+            [
+                "./images/outfit1.jpg",
+                "./images/outfit1.jpg"
+            ],
+            [
+                "./images/logo.png"
+            ],
+            [
+                "./images/outfit1.jpg"
+            ]
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Other Fashion post",
+        "subtitle": "Come discover 5 autumn pieces you will be able to wear years after years",
+        "category": "FASHION",
+        "date": "November 2020",
+        "main": 0,
+        "src1": "./images/outfit1.jpg",
+        "src2": "./images/outfit1.jpg",
+        "array": [
+            [
+                "./images/mibenki.png"
+            ],
+            [
+                "./images/outfit1.jpg",
+                "./images/outfit1.jpg"
+            ],
+            [
+                "./images/outfit1.jpg"
+            ],
+            [
+                "./images/outfit1.jpg"
+            ]
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Xmas in London",
+        "subtitle": "Come discover dreamy London at christmas time",
+        "category": "LIFESTYLE",
+        "date": "Dece,ber 2020",
+        "main": 1,
+        "src1": "./images/outfit1.jpg",
+        "src2": "./images/outfit1.jpg",
+        "array": [
+            [
+                "./images/mibenki.png"
+            ],
+            [
+                "./images/outfit1.jpg",
+                "./images/outfit1.jpg"
+            ],
+            [
+                "./images/outfit1.jpg"
+            ],
+            [
+                "./images/outfit1.jpg"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+.Burger{
+    width: 3%;
+    min-width: 2.5rem;
+    cursor: pointer;
+    padding: 0 1.5rem;
+    margin:auto;
+    display: none;
+}
+
+
+.Burger div{
+    background-color:  #232323;
+    height: 3px;
+    margin-top:10px;
+    border-radius: 15px 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Burger{
+        padding:1rem 1rem;
+        display: block;
+      }
+  }

@@ -1,0 +1,68 @@
+.Header{
+    text-align: center;
+    padding: 3rem 0;
+    padding-bottom: 1rem;
+    margin:0;
+    background-color: rgb(255,255,255,0.5);
+    border:none;
+}
+
+.Header .Title{
+    margin:auto;
+    width: 30%;
+    min-width: 200px;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.title{
+    padding:0;
+    margin:0;
+    font-size:40px;
+    text-align:center;
+    color: #232323;
+    font-weight: bold;
+}
+
+.follow_button{
+    font-size:18px;
+    color:white;
+    margin:0;
+    background-color: #232323;
+    padding:0.2rem 1rem ;
+    margin:auto;
+    font-weight: 300;
+}
+
+.follow_button:hover{
+    cursor: pointer;
+}
+
+.Form-container_Black .close{
+    color:white;
+    cursor: pointer;
+    font-size: 35px;
+    transform: rotate(45deg);
+    float:right;
+    margin:0.5rem 1rem;
+}
+
+.Form-container_Black .close:hover{
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size:30px;
+      }
+      .follow_button{
+        font-size:15px;
+    }
+  
+      .Menu{
+        display:none;
+      }
+  }

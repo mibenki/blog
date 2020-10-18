@@ -1,0 +1,40 @@
+.col{
+    display: flex;
+    flex-direction: column-reverse;
+    margin:0;
+    width: 20%;
+}
+
+
+.col_mobile{
+    display: none;
+}
+
+.Item img{ 
+    padding:0;
+    margin:0.5rem;
+    width: calc(100% - 1rem);
+}
+
+.Pins{
+    display: flex;
+    margin:-10% auto;
+    justify-content: center;
+    margin-bottom:10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .col{
+        display: none;
+      }
+    .col_mobile{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:0;
+        width: 90%;
+    }
+
+    .Pins{
+        margin-top:10%;
+    }
+  }

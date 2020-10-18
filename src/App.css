@@ -1,38 +1,117 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/mibenki.png');
+  height: 100%;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed; 
+  font-family: 'Cambria';
+  color: #232323;
+  font-family: 'Optima';
+  overflow: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppFix{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/mibenki.png');
+  height: 100%;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed; 
+  font-family: 'Cambria';
+  color: #232323;
+  font-family: 'Optima';
+  overflow: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link{
+  width: 100%;
+  height: 1.3rem;
+  background-color:rgb(255,255,255,0.9);
+  color:black;
+  padding:1rem 0;
+  margin:0.5rem auto;
+  color: #232323;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+  text-decoration: none;
+}
+
+.Form-container{
+  margin:auto;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  height: 90%;
+  background-color: rgb(255,255,255,0.5);
+}
+
+.Form-container_Black{
+  margin:auto;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  height: 60%;
+  background-color: #232323;
+}
+
+.Form-container_Black p{
+  color:white;
+}
+
+.Form-container_Black .Center{
+  margin-top:-1rem;
+}
+
+.Center{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  width: 80%;
+  
+}
+
+
+p{
+  font-size:21px;
+  font-weight: bold;
+  font-family: 'Optima';
+  padding-top:1rem;
+  margin-bottom: 0.5rem;
 }
 
 .App-link {
-  color: #61dafb;
+  color:#232323;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-insta{
+  width: 10%;
+  min-width: 50px;
 }
+
+
+
+

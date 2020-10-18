@@ -1,0 +1,113 @@
+.Article{
+    background-color:white;
+    width: 90%;
+    margin:1rem auto;
+    padding:1rem 0;
+    border-radius: 15px;
+}
+
+.Article .SubArticle{
+    width: 95%;
+    margin:0 auto;
+    padding: 0;
+    max-width: 750px;
+}
+.Article .center{
+    display: flex;
+    padding: 0;
+    margin:0 auto;
+}
+
+.Article .center .photo{
+    margin:1rem 0.3rem;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.Article .center .photo2{
+    margin:1rem 0.3rem;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+.Article .center .photo img{
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+.Article .center .photo2 img{
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+.Article .Title{
+    font-size:50px;
+    padding: 1rem;
+    font-family: 'Chalkduster','Brush Script MT';
+}
+
+.Article .center .try{
+    margin:0;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    text-align:left;
+    margin:1.2rem 0.3rem;
+    font-family: 'monaco';
+    transform: rotate(180deg);
+}
+
+.Article .SubTitle{
+    padding: 0 1rem;
+}
+
+.Article .readMore{
+    background-color: transparent;
+    color:#232323;
+    width: 100px;
+    padding-bottom: 0.5rem;
+    font-size:15px;
+    text-decoration: underline;
+    position: relative;
+    left: calc(50% - 40px);
+}
+
+.Article .readMore:hover{
+    background-color: transparent;
+    color:grey;
+    box-shadow: 0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .Article .readMore{
+      font-size:12px;
+      position: relative;
+      left: calc(50% - 45px);
+    }
+    .Article .Title{
+        font-size:25px;
+      }
+      .Article .Category{
+        font-size:14px;
+      }
+      .Article .center .try{
+          font-size:10px;
+          margin-right:0rem;
+          margin-left:0.5rem;
+      }
+      .Article .SubTitle{
+          font-size:12px;
+      }
+
+      .Article .center .photo2{
+        display: none;
+    }
+    .Article .center .photo{
+        margin-right:1rem;
+        margin-left:0;
+    }
+  }
+

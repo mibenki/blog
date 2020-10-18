@@ -1,0 +1,71 @@
+.Footer{
+    margin:0;
+    padding: 1rem;
+    background-color: white;
+}
+
+
+.Footer h2{
+    margin:0;
+    font-size:25px;
+}
+
+
+.Footer p{
+    font-weight: 300;
+    padding:0;
+    margin:0;
+    font-size:15px;
+}
+
+.Footer p a{
+    color:#232323;
+    cursor: pointer;
+}
+
+.Footer .media{
+    border-top:1px solid #bfbfaf;
+    margin:1rem auto;
+    padding:1rem;
+    max-width: 800px;
+    
+}
+
+
+.Footer .Medias a img{
+ width: 15px;
+ margin:0.3rem;
+ padding:0;
+ display: none;
+}
+
+.feed{
+    display: flex;
+    justify-content: center;
+}
+
+.InstaPost{
+    width: 10%;
+    padding:0;
+    margin:2rem 0.5rem;
+}
+
+.InstaPost a img{
+    padding:0;
+    margin:0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .InstaPost{
+        width: 25%;
+        padding:0;
+        margin:1rem 0.1rem;
+    }
+    
+    .InstaPost a img{
+        padding:0;
+        margin:0;
+    }
+  }

@@ -1,0 +1,31 @@
+
+
+.Outfit{
+    width: 100%;
+    background-color:rgb(255,255,255,0.8);
+    margin-top:5rem;
+  }
+
+  .Images_Outfit{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+.Outfit h1{
+      padding-top: 2rem;
+  }
+
+
+img{
+    width: 80%;
+    max-width: 400px;
+    padding: 2rem;
+}
+
+
+.slide_container{
+  padding: 1rem;
+}
+

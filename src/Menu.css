@@ -1,0 +1,101 @@
+.Menu_mobile{
+  display: block;
+  width: 100%;
+  padding:1rem 0;
+  display: none;
+  background-color: rgb(255,255,255,0.5);
+  border:none;
+  transition: all 0.3s;
+}
+
+.Menu_mobile .MenuBar{
+  display: flex;
+  width: 80%;
+  margin:auto;
+  justify-content: space-around;
+  background-color: rgb(255,255,255,0.8);
+  border-radius: 5px;
+  
+}
+
+.Menu_mobile .MenuBar p{
+  font-size: 17px;
+  margin:0;
+  padding:0;
+  margin:auto 0.5rem;
+  width: 80%;
+  text-align: left;
+  font-weight: 300;
+}
+
+
+.openMenu{
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+  text-align:right;
+  transition: transform 0.3s;
+  font-family: 'anson';
+}
+
+
+ul{
+  list-style: none;
+  width: 80%;
+  margin: auto;
+  border-top: 2px solid #919191;
+  background-color: rgb(255,255,255,0.8);
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+.Menu_mobile ul li{
+  height: 2rem;
+}
+
+.Menu_mobile ul li a{
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  transition:1s;
+}
+
+
+
+.Menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255,255,255,0.5);
+  margin-bottom: 20%;
+  border:none;
+}
+
+.Menu a{
+  color: #232323;
+  margin: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+
+@media only screen and (max-width: 600px) {
+  h1{
+      font-size:30px;
+    }
+    .follow_button{
+      font-size:15px;
+  }
+
+    .Menu{
+      display:none;
+    }
+
+    .Menu_mobile{
+      display: block;
+    }
+}
