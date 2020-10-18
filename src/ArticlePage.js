@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 class ArticlePage extends React.Component {
 
     render() {
-        let article = testData2.filter(article => article.id == this.props.match.params.id);
+        let article = testData2.filter(article => article.id === this.props.match.params.id);
         return (
             <div>
                 {article.map(article => <FullArticle key={article.id} {...article} />)}

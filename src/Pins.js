@@ -2,13 +2,11 @@ import React from 'react';
 import './Pins.css';
 
 
-const logo = require('./images/outfit1.jpg');
-
 class Pins extends React.Component {
     render() {
-        let row1map = this.props.items.filter(item => item.col == 1);
-        let row2map = this.props.items.filter(item => item.col == 2);
-        let row3map = this.props.items.filter(item => item.col == 3);
+        let row1map = this.props.items.filter(item => item.col === 1);
+        let row2map = this.props.items.filter(item => item.col === 2);
+        let row3map = this.props.items.filter(item => item.col === 3);
 
         return (
             <div className="Pins" >

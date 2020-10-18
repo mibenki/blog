@@ -7,7 +7,6 @@ import Header from './Header.js';
 import Article from './Article.js';
 import Footer from './Footer.js';
 import Pins from './Pins.js';
-import { Link } from 'react-router-dom';
 import testData from './outfits.json';
 import Button from './Button.js';
 import testData2 from './Articles.json';
@@ -61,7 +60,7 @@ class Insta extends React.Component {
 
 class Blog extends React.Component {
   render() {
-    let main = testData2.filter(article => article.main == 1);
+    let main = testData2.filter(article => article.main === 1);
     return (
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
@@ -99,7 +98,7 @@ class Closet extends React.Component {
 
 class Articles extends React.Component {
   render() {
-    let filtered = testData2.filter(article => article.category == this.props.category.toUpperCase());
+    let filtered = testData2.filter(article => article.category === this.props.category.toUpperCase());
     return (
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
