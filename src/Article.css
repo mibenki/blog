@@ -54,7 +54,7 @@
     writing-mode: vertical-lr;
     text-orientation: mixed;
     text-align:left;
-    margin:1.2rem 0.3rem;
+    margin:0.5rem 0.5rem;
     font-family: 'monaco';
     transform: rotate(180deg);
 }

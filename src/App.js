@@ -65,7 +65,7 @@ class Blog extends React.Component {
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
         <Menu />
-        {main.map(article => <Article key={article.id} {...article} />)}/>}
+        {main.map(article => <Article key={article.id} {...article} />)}
 
         <Footer />
       </div >

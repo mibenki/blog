@@ -49,8 +49,8 @@ class NavBar extends React.Component {
             <div>
                 <ul style={conditonalHeight}  >
                     <li><Link style={conditonalColor} to="../fashion">Fashion</Link></li>
-                    <li><a style={conditonalColor} href="../lifestyle">LifeStyle</a></li>
-                    <li><a style={conditonalColor} href="../closet">My Closet</a></li>
+                    <li><Link style={conditonalColor} to="../lifestyle">LifeStyle</Link></li>
+                    <li><Link style={conditonalColor} to="../closet">My Closet</Link></li>
                 </ul>
             </div>
         );
