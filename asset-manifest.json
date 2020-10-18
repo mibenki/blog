@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/blog/static/css/main.9c064e3c.chunk.css",
+    "main.js": "/blog/static/js/main.6cf14849.chunk.js",
+    "main.js.map": "/blog/static/js/main.6cf14849.chunk.js.map",
+    "runtime-main.js": "/blog/static/js/runtime-main.1dc37962.js",
+    "runtime-main.js.map": "/blog/static/js/runtime-main.1dc37962.js.map",
+    "static/css/2.69507427.chunk.css": "/blog/static/css/2.69507427.chunk.css",
+    "static/js/2.49d0cc59.chunk.js": "/blog/static/js/2.49d0cc59.chunk.js",
+    "static/js/2.49d0cc59.chunk.js.map": "/blog/static/js/2.49d0cc59.chunk.js.map",
+    "index.html": "/blog/index.html",
+    "precache-manifest.b0954cb037a13b0fea86b831057957b3.js": "/blog/precache-manifest.b0954cb037a13b0fea86b831057957b3.js",
+    "service-worker.js": "/blog/service-worker.js",
+    "static/css/2.69507427.chunk.css.map": "/blog/static/css/2.69507427.chunk.css.map",
+    "static/css/main.9c064e3c.chunk.css.map": "/blog/static/css/main.9c064e3c.chunk.css.map",
+    "static/js/2.49d0cc59.chunk.js.LICENSE.txt": "/blog/static/js/2.49d0cc59.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/blog/static/media/1.7914f242.jpg",
+    "static/media/2.jpg": "/blog/static/media/2.13e5b7ee.jpg",
+    "static/media/3.jpg": "/blog/static/media/3.619cc8f5.jpg",
+    "static/media/4.jpg": "/blog/static/media/4.ab732d9f.jpg",
+    "static/media/5.jpg": "/blog/static/media/5.317d1eed.jpg",
+    "static/media/ins.png": "/blog/static/media/ins.0832410a.png",
+    "static/media/ins2.png": "/blog/static/media/ins2.2df39009.png",
+    "static/media/ins3.png": "/blog/static/media/ins3.08d9911e.png",
+    "static/media/insta.png": "/blog/static/media/insta.8290266a.png",
+    "static/media/logo.png": "/blog/static/media/logo.30dde907.png",
+    "static/media/logo.svg": "/blog/static/media/logo.5d5d9eef.svg",
+    "static/media/mibenki.png": "/blog/static/media/mibenki.5183ff13.png",
+    "static/media/outfit1.jpg": "/blog/static/media/outfit1.71df0f23.jpg",
+    "static/media/outfit2.jpg": "/blog/static/media/outfit2.8d570912.jpg",
+    "static/media/pin.jpg": "/blog/static/media/pin.484e67b9.jpg",
+    "static/media/pin2.png": "/blog/static/media/pin2.40e26bea.png",
+    "static/media/pinterest.png": "/blog/static/media/pinterest.73d6bf1e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1dc37962.js",
+    "static/css/2.69507427.chunk.css",
+    "static/js/2.49d0cc59.chunk.js",
+    "static/css/main.9c064e3c.chunk.css",
+    "static/js/main.6cf14849.chunk.js"
+  ]
+}
