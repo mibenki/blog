@@ -28,8 +28,8 @@ class FullArticle extends React.Component {
 
                 <div className="article_images">
                     <img src={require(`${this.props.src1}`)}></img>
-                    {this.props.array.map(function (e) {
-                        let test = e.map(function (f) {
+                    {this.props.array.map((e) => {
+                        let test = e.map((f) => {
                             return (
                                 <div>
                                     <img src={require(`${f}`)}></img>

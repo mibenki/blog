@@ -21,7 +21,7 @@ class Footer extends React.Component {
                 <h2>Instagram</h2>
                 <p> FOLLOW <a href="https://www.instagram.com/mibenki" target="_blank">@MIBENKI</a></p>
                 <div className="feed">
-                    {instafeed.map(i => <InstaPost  {...i} />)}
+                    {instafeed.map(i => <InstaPost key={i.link} {...i} />)}
                 </div>
                 <div className="media">
                     <p>MIBENKI &copy; 2020</p>
