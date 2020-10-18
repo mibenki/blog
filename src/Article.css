@@ -55,8 +55,10 @@
     text-orientation: mixed;
     text-align:left;
     margin:0.5rem 0.5rem;
+    padding-left:0.3rem;
     font-family: 'monaco';
     transform: rotate(180deg);
+    font-size: 15px;
 }
 
 .Article .SubTitle{
