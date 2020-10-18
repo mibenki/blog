@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 
 class Menu extends React.Component {
@@ -48,7 +48,7 @@ class NavBar extends React.Component {
         return (
             <div>
                 <ul style={conditonalHeight}  >
-                    <li><a style={conditonalColor} href="../fashion">Fashion</a></li>
+                    <li><Link style={conditonalColor} to="../fashion">Fashion</Link></li>
                     <li><a style={conditonalColor} href="../lifestyle">LifeStyle</a></li>
                     <li><a style={conditonalColor} href="../closet">My Closet</a></li>
                 </ul>
