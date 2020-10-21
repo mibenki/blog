@@ -26,7 +26,6 @@ class Header extends React.Component {
                         <div onClick={this.togglePop} className="follow_button" >follow me</div>
                     </div>
                     {this.state.open ? <FollowMe togglePop={this.togglePop} /> : null}
-
                 </div>
             </div>
         );

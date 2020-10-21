@@ -1,0 +1,66 @@
+.MenuPage{
+    padding: 1rem 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/mibenki.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed; 
+    top:0;
+    bottom:0;
+    left:0;
+    margin: 0;
+    padding: 0;
+    z-index:0;
+}
+
+.Menu_list{
+    background-color: rgb(255,255,255,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+.Menu_list_item{
+    color:black;
+    margin:1rem 0;
+    font-size:25px;
+}
+
+.closeMenuPage{
+    width: 2%;
+    min-width: 2rem;
+    cursor: pointer;
+    padding: 0 1.5rem;
+    margin:0;
+    font-weight: bold;
+    font-size:40px;
+    transform: rotate(45deg);
+    float:right;
+  }
+
+.MenuPage ul{
+    border:none;
+    width: 100%;
+    padding:0;
+    background-color: transparent;
+    transition: all 1s;
+    margin:auto;
+    list-style: none;
+}
+
+.MenuPage ul li{
+    height: 2rem;
+  }
+  
+  .MenuPage ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    transition:1s;
+    color: black;
+  }

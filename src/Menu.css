@@ -8,6 +8,17 @@
   transition: all 0.3s;
 }
 
+.Menu_mobile_try{
+  display: block;
+  position: fixed;
+  top:0;
+  padding: 1rem 0;
+  width: 100%;
+  background-color:rgb(255,255,255,0);
+  transition: all 0.3s;
+  display: none;
+}
+
 .Menu_mobile .MenuBar{
   display: flex;
   width: 80%;
@@ -63,6 +74,7 @@ ul{
 
 
 
+
 .Menu{
   width: 100%;
   display: flex;
@@ -96,6 +108,9 @@ ul{
     }
 
     .Menu_mobile{
+      display: block;
+    }
+    .Menu_mobile_try{
       display: block;
     }
 }
