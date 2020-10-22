@@ -95,12 +95,11 @@ a{
 
 .page_title{
   color:#232323;
-  font-family: 'monaco';
-  font-size: 20px;
+  font-family: 'Chalkduster','Brush Script MT';
+  font-size: 30px;
   padding:1rem;
   margin-left:5%;
   text-align:left;
-  font-weight: bold;
   text-transform: capitalize;
 }
 
