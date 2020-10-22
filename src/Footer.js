@@ -24,7 +24,7 @@ class Footer extends React.Component {
                     {instafeed.map(i => <InstaPost key={i.link} {...i} />)}
                 </div>
                 <div className="media">
-                    <p>MIBENKI &copy; 2020</p>
+                    <p>Mibenki &copy; 2020</p>
                     <div className="Medias">
                         <a href="https://www.pinterest.co.uk/mibenki/" target="_blank"><img src={pin} /></a>
                         <a href="https://www.instagram.com/mibenki/" target="_blank"><img src={ins} /></a>

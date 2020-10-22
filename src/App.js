@@ -77,8 +77,8 @@ class Articles extends React.Component {
 
     return (
       <div className="articles2">
-        <div className="page_title">{this.props.title}</div>
-        {/*<img className="page_title_img" src={require(`./images/${this.props.title}.png`)}></img>*/}
+        {/*<div className="page_title">{this.props.title}</div>*/}
+        <img className="page_title_img" src={require(`./images/${this.props.title}.png`)}></img>
         {this.props.map.map(article => <Article key={article.id} {...article} />)}
       </div>
     );
