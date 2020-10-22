@@ -3,9 +3,9 @@
   margin: 0;
   padding: 0;
   background-image: url('images/mibenki.png');
+  background-position: top;
   height: 100%;
   width: 100%;
-  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed; 
@@ -118,7 +118,7 @@ p{
   }
 
   .App{
-    background-position: center 10%;
+    background-position: center 30px;
   }
 }
 
