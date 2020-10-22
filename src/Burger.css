@@ -2,9 +2,9 @@
     width: 2%;
     min-width: 2rem;
     cursor: pointer;
-    padding: 0 1.5rem;
-    margin:auto;
+    padding: 0;
     float:right;
+    margin:0 1rem;
 }
 
 

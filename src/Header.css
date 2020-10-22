@@ -18,14 +18,7 @@
 }
 
 
-.title{
-    padding:0;
-    margin:0;
-    font-size:40px;
-    text-align:center;
-    color: #232323;
-    font-weight: bold;
-}
+
 
 .follow_button{
     font-size:18px;
@@ -65,4 +58,8 @@
       .Menu{
         display:none;
       }
+
+  .Header{
+    display: none;
   }
+}

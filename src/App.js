@@ -29,8 +29,8 @@ class App extends React.Component {
         <Switch>
           <Route path="/insta" render={() => (<Insta />)} />
           <Route path="/closet" render={() => (<Closet />)} />
-          <Route path="/fashion" render={() => (<Articles category="fashion" />)} exact />
-          <Route path="/lifestyle" render={() => (<Articles category="lifestyle" />)} exact />
+          <Route path="/fashion" render={() => (<ArticlesPage category="fashion" />)} exact />
+          <Route path="/lifestyle" render={() => (<ArticlesPage category="lifestyle" />)} exact />
           <Route path="/:category/articles/:id" render={() => (<ArticlePage />)} />
           <Route path="/" component={Blog} exact />
           <Route component={PageNotFound} />
@@ -65,9 +65,20 @@ class Blog extends React.Component {
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
         <Menu />
-        {main.map(article => <Article key={article.id} {...article} />)}
+        <Articles map={main} />
         <Footer />
       </div >
+    );
+  }
+}
+
+class Articles extends React.Component {
+  render() {
+
+    return (
+      <div className="articles2">
+        {this.props.map.map(article => <Article key={article.id} {...article} />)}
+      </div>
     );
   }
 }
@@ -85,8 +96,7 @@ class Closet extends React.Component {
     return (
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
-        <Menu />
-        {/*OutfitMap and how to keep track*/}
+        <Menu onSubmit={this.addNewEmail} />
         <Pins items={this.state.items} />
         <Footer />
       </div >
@@ -95,14 +105,14 @@ class Closet extends React.Component {
 }
 
 
-class Articles extends React.Component {
+class ArticlesPage extends React.Component {
   render() {
     let filtered = testData2.filter(article => article.category === this.props.category.toUpperCase());
     return (
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
         <Menu />
-        {filtered.map(article => <Article key={article.id} {...article} />)}/>}
+        <Articles map={filtered} />
         <Footer />
       </div >
     );

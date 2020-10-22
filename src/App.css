@@ -112,6 +112,13 @@ p{
   min-width: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+  .articles2{
+    margin-top:50%;
+  }
+}
+
+
 
 
 

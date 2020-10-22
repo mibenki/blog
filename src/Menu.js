@@ -3,6 +3,8 @@ import './Menu.css';
 import Burger from './Burger.js';
 import { NavLink, Link } from 'react-router-dom';
 import MenuPage from './MenuPage.js';
+import Button from './Button.js';
+import Form from './Form.js';
 
 
 class Menu extends React.Component {
@@ -36,22 +38,34 @@ class Menu extends React.Component {
                     <NavLink to="../closet">My Closet</NavLink>
                 </div>
                 <div className="Menu_mobile_try">
+                    <div className="Header_container">
+                        <Link className="title" to="/">Mi Benki</Link>
+                        <div onClick={this.setOpen} className="follow_button" >follow me</div>
+                    </div>
+                    {this.state.open ? <FollowMe togglePop={this.setOpen} /> : null}
                     {this.state.open2 ? <MenuPage setOpen={this.setOpen2} /> : <Burger setOpen={this.setOpen2} />}
                 </div>
-                {/*}              <div className="Menu_mobile">
-                    <div className="MenuBar">
-                        <p>Wander around</p>
-                        <div className="openMenu" style={conditonalStyle} onClick={this.setOpen}>&or;</div>
-                    </div>
-                    <NavBar open={this.state.open} />
-        </div>*/}
-                {this.state.open2 ? null : null}
             </div>
         );
     }
 }
 
-
+class FollowMe extends React.Component {
+    render() {
+        return (
+            <div className="Form-container_Black">
+                <div onClick={this.props.toggleop} className="close" >+</div>
+                <div className="Center">
+                    <p>Follow me on...</p>
+                    <Button link="https://www.pinterest.co.uk/mibenki/" text="Pinterest" />
+                    <Button link="https://www.instagram.com/mibenki/" text="Instagram" />
+                    <p>Subscribe for updates!</p>
+                    <Form onSubmit={this.addNewEmail} />
+                </div>
+            </div>
+        );
+    }
+}
 
 
 class NavBar extends React.Component {

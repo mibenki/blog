@@ -9,15 +9,22 @@
 }
 
 .Menu_mobile_try{
-  display: block;
   position: fixed;
   top:0;
-  padding: 1rem 0;
+  margin:0;
   width: 100%;
+  padding:0.5rem 0;
   background-color:rgb(255,255,255,1);
-  transition: all 0.3s;
   display: none;
 }
+
+.Header_container{
+  display: flex;
+  flex-direction: row;
+  margin:0 1rem;
+  justify-content: space-between;
+}
+
 
 .Menu_mobile .MenuBar{
   display: flex;
@@ -73,6 +80,13 @@ ul{
 }
 
 
+.title{
+  padding:0;
+  margin-right:1rem;
+  font-size:30px;
+  color: #232323;
+  font-weight: bold;
+}
 
 
 .Menu{
@@ -111,6 +125,8 @@ ul{
       display: block;
     }
     .Menu_mobile_try{
-      display: block;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
 }
