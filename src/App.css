@@ -2,7 +2,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  background-image: url('images/mibenki.png');
+  background-color: white;
   background-position: top;
   height: 100%;
   width: 100%;
@@ -114,7 +114,7 @@ p{
 
 @media only screen and (max-width: 600px) {
   .articles2{
-    margin-top:50%;
+    margin-top:20%;
   }
 
   .App{
