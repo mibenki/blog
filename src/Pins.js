@@ -10,7 +10,7 @@ class Pins extends React.Component {
 
         return (
             <div className="Pins_container">
-                <div className="page_title">{this.props.title}</div>
+                <img className="page_title_img" alt={this.props.title} src={require(`./images/${this.props.title}.png`)}></img>
                 <div className="Pins" >
                     <div className="col">{row1map.map(item => <Item key={item.id} {...item} />)}</div>
                     <div className="col">{row2map.map(item => <Item key={item.id} {...item} />)}</div>

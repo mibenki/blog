@@ -65,7 +65,7 @@ class Blog extends React.Component {
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
         <Menu />
-        <Articles map={main} />
+        <Articles map={main} title="last_post" />
         <Footer />
       </div >
     );
@@ -99,7 +99,7 @@ class Closet extends React.Component {
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
         <Menu onSubmit={this.addNewEmail} />
-        <Pins items={this.state.items} title="My Closet" />
+        <Pins items={this.state.items} title="mycloset" />
         <Footer />
       </div >
     );
