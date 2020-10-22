@@ -9,7 +9,6 @@
     left:0;
     margin: 0;
     padding: 0;
-    z-index:0;
 }
 
 .Menu_list{
@@ -32,14 +31,13 @@
     width: 2%;
     min-width: 2rem;
     cursor: pointer;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     margin:0;
     font-weight: bold;
     font-size:40px;
     transform: rotate(45deg);
     float:right;
     background-color: rgb(255,255,255,0.5);
-    border:1px solid blue;
   }
 
 .MenuPage ul{

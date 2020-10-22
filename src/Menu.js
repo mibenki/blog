@@ -42,9 +42,10 @@ class Menu extends React.Component {
                         <Link className="title" to="/">Mi Benki</Link>
                         <div onClick={this.setOpen} className="follow_button" >follow me</div>
                     </div>
-                    {this.state.open ? <FollowMe togglePop={this.setOpen} /> : null}
+
                     {this.state.open2 ? <MenuPage setOpen={this.setOpen2} /> : <Burger setOpen={this.setOpen2} />}
                 </div>
+                {this.state.open ? <FollowMe togglePop={this.setOpen} /> : null}
             </div>
         );
     }
@@ -54,7 +55,7 @@ class FollowMe extends React.Component {
     render() {
         return (
             <div className="Form-container_Black">
-                <div onClick={this.props.toggleop} className="close" >+</div>
+                <div onClick={this.props.togglePop} className="close" >+</div>
                 <div className="Center">
                     <p>Follow me on...</p>
                     <Button link="https://www.pinterest.co.uk/mibenki/" text="Pinterest" />

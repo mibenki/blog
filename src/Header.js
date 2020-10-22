@@ -12,6 +12,7 @@ class Header extends React.Component {
     };
 
     togglePop = () => {
+        console.log(this.state.open);
         this.setState({
             open: !this.state.open
         });
@@ -26,6 +27,7 @@ class Header extends React.Component {
                         <div onClick={this.togglePop} className="follow_button" >follow me</div>
                     </div>
                     {this.state.open ? <FollowMe togglePop={this.togglePop} /> : null}
+
                 </div>
             </div>
         );
@@ -37,7 +39,7 @@ class FollowMe extends React.Component {
     render() {
         return (
             <div className="Form-container_Black">
-                <div onClick={this.props.togglePop} className="close" >+</div>
+                <div onClick={this.props.toggleop} className="close" >+</div>
                 <div className="Center">
                     <p>Follow me on...</p>
                     <Button link="https://www.pinterest.co.uk/mibenki/" text="Pinterest" />
