@@ -27,6 +27,7 @@ class MenuPage extends React.Component {
     }
 }
 class Close extends React.Component {
+
     render() {
         return (
             <div className="closeMenuPage" onClick={this.props.setOpen}>+
