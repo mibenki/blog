@@ -95,12 +95,18 @@ a{
 
 .page_title{
   color:#232323;
-  font-size: 30px;
+  font-family: 'monaco';
+  font-size: 20px;
   padding:1rem;
   margin-left:5%;
   text-align:left;
   font-weight: bold;
   text-transform: capitalize;
+}
+
+.page_title_img{
+  width:50%;
+  margin-right:40%;
 }
 
 
