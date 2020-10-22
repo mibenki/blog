@@ -9,12 +9,16 @@ class Pins extends React.Component {
         let row3map = this.props.items.filter(item => item.col === 3);
 
         return (
-            <div className="Pins" >
-                <div className="col">{row1map.map(item => <Item key={item.id} {...item} />)}</div>
-                <div className="col">{row2map.map(item => <Item key={item.id} {...item} />)}</div>
-                <div className="col">{row3map.map(item => <Item key={item.id} {...item} />)}</div>
-                <div className="col_mobile">{this.props.items.map(item => <Item key={item.id} {...item} />)}</div>
-            </ div>
+            <div className="Pins_container">
+                <div className="page_title">{this.props.title}</div>
+                <div className="Pins" >
+                    <div className="col">{row1map.map(item => <Item key={item.id} {...item} />)}</div>
+                    <div className="col">{row2map.map(item => <Item key={item.id} {...item} />)}</div>
+                    <div className="col">{row3map.map(item => <Item key={item.id} {...item} />)}</div>
+                    <div className="col_mobile">{this.props.items.map(item => <Item key={item.id} {...item} />)}</div>
+                </ div>
+            </div>
+
         );
     }
 }

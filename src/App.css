@@ -93,6 +93,13 @@ a{
   
 }
 
+.page_title{
+  font-family: 'monaco';
+  color:black;
+  font-size: 40px;
+  padding:1rem;
+}
+
 
 p{
   font-size:21px;

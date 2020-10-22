@@ -13,9 +13,9 @@ class MenuPage extends React.Component {
             <div className="MenuPage">
                 <Close setOpen={this.props.setOpen} />
                 <div className="Menu_list">
-                    <Link className="Menu_list_item" to="../fashion">Fashion</Link>
-                    <Link className="Menu_list_item" to="../lifestyle">LifeStyle</Link>
-                    <Link className="Menu_list_item" to="../closet">My Closet</Link>
+                    <Link className="Menu_list_item" onClick={this.props.setOpen} to="../fashion">Fashion</Link>
+                    <Link className="Menu_list_item" onClick={this.props.setOpen} to="../lifestyle">LifeStyle</Link>
+                    <Link className="Menu_list_item" onClick={this.props.setOpen} to="../closet">My Closet</Link>
                 </div>
                 <ul >
                     <li></li>

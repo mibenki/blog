@@ -18,7 +18,7 @@
 
 .Pins{
     display: flex;
-    margin:-10% auto;
+    margin: auto;
     justify-content: center;
     margin-bottom:10%;
 }
@@ -34,7 +34,9 @@
         width: 90%;
     }
 
-    .Pins{
-        margin-top:50%;
+    .Pins_container{
+        margin-top:20%;
     }
+
+
   }

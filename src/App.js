@@ -77,6 +77,7 @@ class Articles extends React.Component {
 
     return (
       <div className="articles2">
+        <div className="page_title">{this.props.title}</div>
         {this.props.map.map(article => <Article key={article.id} {...article} />)}
       </div>
     );
@@ -97,7 +98,7 @@ class Closet extends React.Component {
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
         <Menu onSubmit={this.addNewEmail} />
-        <Pins items={this.state.items} />
+        <Pins items={this.state.items} title="My Closet" />
         <Footer />
       </div >
     );
@@ -112,7 +113,7 @@ class ArticlesPage extends React.Component {
       <div className="App">
         <Header onSubmit={this.addNewEmail} />
         <Menu />
-        <Articles map={filtered} />
+        <Articles map={filtered} title={this.props.category} />
         <Footer />
       </div >
     );
