@@ -97,6 +97,10 @@ a{
   color:#232323;
   font-size: 30px;
   padding:1rem;
+  margin-left:5%;
+  text-align:left;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 
