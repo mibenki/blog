@@ -1,6 +1,6 @@
 .register{
     background-color: #b60000;
-    padding: 1rem 0;
+    padding:0.5rem 0;
 }
 
 .register:hover{
@@ -21,7 +21,8 @@ form{
     font-size:18px;
     border:none;
     border-radius: 0;
-    padding: 0.5rem;
+    padding:0.5rem 0;
+    margin:0;
     background-color: rgb(255,255,255,0.9);
     font-family: 'Optima';
     color: #232323;
