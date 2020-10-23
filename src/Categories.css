@@ -1,0 +1,16 @@
+
+
+.Categories{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80%;
+    margin:auto;
+}
+
+.Categories .navlink{
+    color:black;
+    font-weight: bold;
+    margin:0.5rem;
+    text-transform: capitalize;
+}

@@ -13,6 +13,7 @@ import testData2 from './Articles.json';
 import ArticlePage from './ArticlePage.js';
 import PageNotFound from './PageNotFound.js';
 import Menu from './Menu.js';
+import Categories from './Categories.js';
 
 
 class App extends React.Component {
@@ -80,6 +81,7 @@ class Articles extends React.Component {
         {/*<div className="page_title">{this.props.title}</div>*/}
         <img className="page_title_img" alt={this.props.title} src={require(`./images/${this.props.title}.png`)}></img>
         {this.props.map.map(article => <Article key={article.id} {...article} />)}
+        <Categories current={this.props.title} />
       </div>
     );
   }
