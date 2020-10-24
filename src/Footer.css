@@ -68,4 +68,13 @@
         padding:0;
         margin:0;
     }
+
+    .Footer h2{
+        font-size:20px;
+    }
+
+    .Footer p{
+        font-size:12px;
+    }
+    
   }

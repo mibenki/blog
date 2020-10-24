@@ -3,9 +3,10 @@
 .Categories{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     width: 80%;
     margin:auto;
+    margin-bottom: 10%;
 }
 
 .Categories .navlink{
