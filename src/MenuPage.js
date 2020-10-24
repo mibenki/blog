@@ -1,17 +1,23 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './MenuPage.css';
+import Button from './Button.js';
+import Form from './Form.js';
 
 
 class MenuPage extends React.Component {
 
 
     render() {
-
-
         return (
             <div className="MenuPage">
-                <Close setOpen={this.props.setOpen} />
+                <div className="Menu_mobile_try">
+                    <div className="Header_container">
+                        <Link className="title" to="/">Mi Benki</Link>
+                    </div>
+                    <Close setOpen={this.props.setOpen} />
+                </div>
+
                 <div className="Menu_list">
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../fashion">Fashion</Link>
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../lifestyle">LifeStyle</Link>
@@ -35,4 +41,22 @@ class Close extends React.Component {
         );
     }
 }
+
+class FollowMe extends React.Component {
+    render() {
+        return (
+            <div className="Form-container_Black">
+                <div onClick={this.props.togglePop} className="close" >+</div>
+                <div className="Center">
+                    <p>Follow me on...</p>
+                    <Button link="https://www.pinterest.co.uk/mibenki/" text="Pinterest" />
+                    <Button link="https://www.instagram.com/mibenki/" text="Instagram" />
+                    <p>Subscribe for updates!</p>
+                    <Form onSubmit={this.addNewEmail} />
+                </div>
+            </div>
+        );
+    }
+}
+
 export default MenuPage;

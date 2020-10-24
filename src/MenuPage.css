@@ -28,14 +28,13 @@
 }
 
 .closeMenuPage{
-    width: 2%;
-    min-width: 2rem;
     cursor: pointer;
-    padding: 0 1rem;
-    margin:0;
+    padding: 0;
+    margin:0 1.5rem;
+    height: 100%;
     font-weight: bold;
-    font-size:40px;
-    transform: rotate(45deg);
+    font-size:30px;
+    transform: rotate(135deg);
     float:right;
   }
 

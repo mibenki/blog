@@ -43,7 +43,7 @@ class Menu extends React.Component {
                         <div onClick={this.setOpen} className="follow_button" >follow me</div>
                     </div>
 
-                    {this.state.open2 ? <MenuPage setOpen={this.setOpen2} /> : <Burger setOpen={this.setOpen2} />}
+                    {this.state.open2 ? <MenuPage setOpen={this.setOpen2} setOpen2={this.setOpen} /> : <Burger setOpen={this.setOpen2} />}
                 </div>
                 {this.state.open ? <FollowMe togglePop={this.setOpen} /> : null}
             </div>
