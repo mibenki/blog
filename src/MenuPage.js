@@ -7,6 +7,16 @@ import Form from './Form.js';
 
 class MenuPage extends React.Component {
 
+    state = {
+        open2: false
+    };
+
+
+    setOpen2 = () => {
+        this.setState({
+            open2: !this.state.open2
+        })
+    };
 
     render() {
         return (
@@ -14,11 +24,13 @@ class MenuPage extends React.Component {
                 <div className="Menu_mobile_try">
                     <div className="Header_container">
                         <Link className="title" to="/">Mi Benki</Link>
+                        <div onClick={this.setOpen2} className="follow_button" >follow me</div>
                     </div>
                     <Close setOpen={this.props.setOpen} />
                 </div>
 
                 <div className="Menu_list">
+                    {this.state.open2 ? <FollowMe togglePop={this.setOpen2} /> : null}
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../fashion">Fashion</Link>
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../lifestyle">LifeStyle</Link>
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../closet">My Closet</Link>
