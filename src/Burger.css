@@ -4,14 +4,14 @@
     cursor: pointer;
     padding: 0;
     float:right;
-    margin:0 1rem;
+    margin:0 1.1rem;
 }
 
 
 .Burger div{
     background-color:  #232323;
     height: 3px;
-    margin-top:6px;
+    margin-top:0.4rem;
     border-radius: 15px 50px;
 }
 
