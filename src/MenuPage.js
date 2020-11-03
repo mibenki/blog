@@ -3,6 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import './MenuPage.css';
 import Button from './Button.js';
 import Form from './Form.js';
+import './Menu.css';
 
 
 class MenuPage extends React.Component {
@@ -31,6 +32,7 @@ class MenuPage extends React.Component {
 
                 <div className="Menu_list">
                     {this.state.open2 ? <FollowMe togglePop={this.setOpen2} /> : null}
+                    <Link className="Menu_list_item" onClick={this.props.setOpen} to="../">Home</Link>
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../fashion">Fashion</Link>
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../lifestyle">LifeStyle</Link>
                     <Link className="Menu_list_item" onClick={this.props.setOpen} to="../closet">My Closet</Link>

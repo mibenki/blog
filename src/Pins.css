@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column-reverse;
     margin:0;
-    width: 20%;
+    width: 30%;
 }
 
 
@@ -23,6 +23,10 @@
     margin-bottom:10%;
 }
 
+.Pins_container{
+    margin-top:-10%;
+}
+
 @media only screen and (max-width: 600px) {
     .col{
         display: none;
@@ -35,7 +39,7 @@
     }
 
     .Pins_container{
-        margin-top:20%;
+        margin-top:30%;
     }
 
 

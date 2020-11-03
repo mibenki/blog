@@ -33,9 +33,6 @@ class Menu extends React.Component {
         return (
             <div>
                 <div className="Menu">
-                    <NavLink to="../fashion">Fashion</NavLink>
-                    <NavLink to="../lifestyle">LifeStyle</NavLink>
-                    <NavLink to="../closet">My Closet</NavLink>
                 </div>
                 <div className="Menu_mobile_try">
                     <div className="Header_container">
@@ -78,6 +75,7 @@ class NavBar extends React.Component {
         return (
             <div>
                 <ul style={conditonalHeight}  >
+                    <li><Link style={conditonalColor} to="../">Home</Link></li>
                     <li><Link style={conditonalColor} to="../fashion">Fashion</Link></li>
                     <li><Link style={conditonalColor} to="../lifestyle">LifeStyle</Link></li>
                     <li><Link style={conditonalColor} to="../closet">My Closet</Link></li>
