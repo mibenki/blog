@@ -2,7 +2,7 @@ import React from 'react';
 import Form from './Form.js';
 import './App.css';
 import { Route } from "react-router";
-import { Switch, Router } from "react-router-dom";
+import { Switch, BrowserRouter as Router } from "react-router-dom";
 import Header from './Header.js';
 import Article from './Article.js';
 import Footer from './Footer.js';
